@@ -334,6 +334,356 @@ a {
 }
 
 
+/* enterprenaurs */
+
+.enter-main {
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 44px;
+    justify-content: center;
+}
+
+.sec-enter1 {
+    width: 371px;
+    font-size: 15px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: rgb(245, 239, 239);
+
+}
+
+.enter-text {
+    padding: 20px 30px 40px 30px;
+}
+
+.enter-more {
+    margin-top: 20px;
+}
+
+.more-learn {
+    color: rgb(16, 149, 16);
+}
+
+.h-enter {
+    color: rgb(16, 149, 16);
+    font-size: 20px;
+}
+
+/* .img-enter1,
+.img-enter2,
+.img-enter3,
+.img-enter4,
+.img-enter5,
+.img-enter6,
+.img-enter7,
+.img-enter8,
+.img-enter9,
+.img-enter10,
+.img-enter11,
+.img-enter12,
+.img-enter13,
+.img-enter14,
+.img-enter15,
+.img-enter16
+{
+    width: 371px;
+    height: 283px;
+} */
+/* .img-enter4{
+    width: 371px;
+    height: 283px;
+} */
+.enter-img1,
+.enter-img2,
+.enter-img3,
+.enter-img4,
+.enter-img5,
+.enter-img6,
+.enter-img7,
+.enter-img8,
+.enter-img9,
+.enter-img10,
+.enter-img11,
+.enter-img12,
+.enter-img13,
+.enter-img14,
+.enter-img15,
+.enter-img16 {
+    width: 371px;
+    height: 283px;
+    background-size: 371px 283px;
+    background-repeat: no-repeat;
+}
+
+.enter-img1 {
+    background-image: url("../media/farms-portfolio/farm-l1-img1.webp");
+}
+
+.enter-img2 {
+    background-image: url("../media/farms-portfolio/farm-l1-img2.webp");
+}
+
+.enter-img3 {
+    background-image: url("../media/farms-portfolio/farm-l1-img3.webp");
+}
+
+.enter-img4 {
+    background-image: url("../media/farms-portfolio/farms-l2-1.jpg");
+}
+
+.enter-img5 {
+    background-image: url("../media/farms-portfolio/farms-l2-2.JPG");
+}
+
+.enter-img6 {
+    background-image: url("../media/farms-portfolio/farms-i2-3.png");
+}
+
+.enter-img7 {
+    background-image: url("../media/farms-portfolio/farms-l3-1.JPG");
+}
+
+.enter-img8 {
+    background-image: url("../media/farms-portfolio/farms-l3-2.jpeg");
+}
+
+.enter-img9 {
+    background-image: url("../media/farms-portfolio/farms-l3-3.webp");
+}
+
+.enter-img10 {
+    background-image: url("../media/farms-portfolio/farms-l4-1.webp");
+}
+
+.enter-img11 {
+    background-image: url("../media/farms-portfolio/farms-l4-2.webp");
+}
+
+.enter-img12 {
+    background-image: url("../media/farms-portfolio/farms-l4-3.webp");
+}
+
+.enter-img13 {
+    background-image: url("../media/farms-portfolio/farms-l5-1.webp");
+}
+
+.enter-img14 {
+    background-image: url("../media/farms-portfolio/farms-l5-2.webp");
+}
+
+.enter-img15 {
+    background-image: url("../media/farms-portfolio/farms-l5-3.webp");
+}
+
+.enter-img16 {
+    background-image: url("../media/farms-portfolio/farms-l6.webp");
+}
+
+
+.enter-img4:hover {
+    background-image: url("../media/farms-portfolio/farms-l2-h1.webp");
+}
+
+.enter-img5:hover {
+    background-image: url("../media/farms-portfolio/farms-l2-h2.webp");
+}
+
+.enter-img6:hover {
+    background-image: url("../media/farms-portfolio/farms-l2-h3.webp");
+}
+
+.enter-img7:hover {
+    background-image: url("../media/farms-portfolio/farms-l3-h1.webp");
+}
+
+.enter-img8:hover {
+    background-image: url("../media/farms-portfolio/farms-l3-h2.webp");
+}
+
+.enter-img9:hover {
+    background-image: url("../media/farms-portfolio/farms-l3-h3.webp");
+}
+
+.enter-img10:hover {
+    background-image: url("../media/farms-portfolio/farms-l4-h1.webp");
+}
+
+.enter-img11:hover {
+    background-image: url("../media/farms-portfolio/farms-l4-h2.webp");
+}
+
+.enter-img12:hover {
+    background-image: url("../media/farms-portfolio/farms-l4-h3.webp");
+}
+
+.enter-img13:hover {
+    background-image: url("../media/farms-portfolio/farms-l5-h1.webp");
+}
+
+.enter-img14:hover {
+    background-image: url("../media/farms-portfolio/farms-l5-h2.jpeg");
+}
+
+.enter-img16:hover {
+    background-image: url("../media/farms-portfolio/farms-l6-h1.webp");
+}
+
+@media only screen and (max-width:1261px) {
+    .sec-enter1 {
+        width: 300px;
+    }
+
+    .enter-main {
+        gap: 20px;
+    }
+
+    .enter-img1,
+    .enter-img2,
+    .enter-img3,
+    .enter-img4,
+    .enter-img5,
+    .enter-img6,
+    .enter-img7,
+    .enter-img8,
+    .enter-img9,
+    .enter-img10,
+    .enter-img11,
+    .enter-img12,
+    .enter-img13,
+    .enter-img14,
+    .enter-img15,
+    .enter-img16 {
+        background-size: 315px 265px;
+    }
+
+}
+
+@media only screen and (max-width:973px) {
+
+    .enter-main {
+        grid-template-columns: auto auto;
+        gap: 25px;
+    }
+
+    .enter-img1,
+    .enter-img2,
+    .enter-img3,
+    .enter-img4,
+    .enter-img5,
+    .enter-img6,
+    .enter-img7,
+    .enter-img8,
+    .enter-img9,
+    .enter-img10,
+    .enter-img11,
+    .enter-img12,
+    .enter-img13,
+    .enter-img14,
+    .enter-img15,
+    .enter-img16 {
+        background-size: 315px 265px;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .enter-main {
+        grid-template-columns: auto;
+    }
+    .sec-enter1 {
+        width: 368px;
+      }
+      .enter-img1,
+      .enter-img2,
+      .enter-img3,
+      .enter-img4,
+      .enter-img5,
+      .enter-img6,
+      .enter-img7,
+      .enter-img8,
+      .enter-img9,
+      .enter-img10,
+      .enter-img11,
+      .enter-img12,
+      .enter-img13,
+      .enter-img14,
+      .enter-img15,
+      .enter-img16 {
+          background-size: 370px 286px;
+      }
+}
+@media only screen and (max-width:437px) {
+    .enter-main {
+        grid-template-columns: auto;
+    }
+    .sec-enter1 {
+        width: 251px;
+      }
+      .enter-img1,
+      .enter-img2,
+      .enter-img3,
+      .enter-img4,
+      .enter-img5,
+      .enter-img6,
+      .enter-img7,
+      .enter-img8,
+      .enter-img9,
+      .enter-img10,
+      .enter-img11,
+      .enter-img12,
+      .enter-img13,
+      .enter-img14,
+      .enter-img15,
+      .enter-img16 {
+          background-size: 269px 236px;
+      }
+}
+
+
+
+.img-enter4:hover {
+    background-image: url("../media/farms-portfolio/farms-l2-h1.webp");
+    width: 371px;
+    height: 283px;
+}
+
+/* .img-enter5:hover{
+    background-image: url("../media/farms-portfolio/farms-l2-h2.webp"); 
+}
+.img-enter6:hover{
+    background-image: url("../media/farms-portfolio/farms-l2-h3.webp"); 
+}
+.img-enter7:hover{
+    background-image: url("../media/farms-portfolio/farms-l3-h1.webp"); 
+}
+.img-enter8:hover{
+    background-image: url("../media/farms-portfolio/farms-l3-h2.webp"); 
+}
+.img-enter9:hover{
+    background-image: url("../media/farms-portfolio/farms-l4-h1.webp"); 
+}
+.img-enter10:hover{
+    background-image: url("../media/farms-portfolio/farms-l4-h2.webp"); 
+}
+.img-enter11:hover{
+    background-image: url("../media/farms-portfolio/farms-l4-h3.webp"); 
+}
+.img-enter12:hover{
+    background-image: url("../media/farms-portfolio/farms-l5-h1.webp"); 
+}
+.img-enter13:hover{
+    background-image: url("../media/farms-portfolio/farms-l5-h2.jpeg"); 
+}
+.img-enter14:hover{
+    background-image: url("../media/farms-portfolio/farms-l5-h2.jpeg"); 
+}
+.img-enter16:hover{
+    background-image: url("../media/farms-portfolio/farms-l6-h1.webp"); 
+} */
+
+
+
 
 
 
@@ -397,10 +747,11 @@ a {
     flex-direction: column;
     margin: 20px;
     margin-bottom: 50px;
-   
+
 }
-.form-main{
-    background: linear-gradient( rgba(40, 39, 39, 0.5), rgba(44, 40, 40, 0.5)), url("../media/lets-bg-img.jpg");
+
+.form-main {
+    background: linear-gradient(rgba(40, 39, 39, 0.5), rgba(44, 40, 40, 0.5)), url("../media/lets-bg-img.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -431,7 +782,8 @@ a {
     border: none;
     background-color: rgb(16, 149, 16);
 }
-.btn-input{
+
+.btn-input {
     margin-top: 28px;
     margin-bottom: 42px;
 }
