@@ -177,7 +177,7 @@ a {
 
 
 .head-img {
-    background: linear-gradient(rgba(5, 5, 5, 0.6), rgba(13, 11, 11, 0.6)), url("/media/our-techno/main-head-bg.jpg");
+    background: linear-gradient(rgba(5, 5, 5, 0.6), rgba(13, 11, 11, 0.6)), url("../media/our-techno/main-head-bg.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;

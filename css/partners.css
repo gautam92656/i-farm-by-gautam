@@ -178,7 +178,7 @@ a{
 
 
 .head-img {
-    background: linear-gradient(rgba(8, 6, 6, 0.6), rgba(12, 10, 10, 0.6)), url("/media/partners/partner-head-bg.jpeg");
+    background: linear-gradient(rgba(8, 6, 6, 0.6), rgba(12, 10, 10, 0.6)), url("../media/partners/partner-head-bg.jpeg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -441,7 +441,7 @@ a{
 }
 
 .form-main {
-    background: linear-gradient(rgba(7, 6, 6, 0.5), rgba(5, 3, 3, 0.5)), url("/media/lets\ bg\ img.jpg");
+    background: linear-gradient(rgba(7, 6, 6, 0.5), rgba(5, 3, 3, 0.5)), url("../media/lets-bg-img.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
