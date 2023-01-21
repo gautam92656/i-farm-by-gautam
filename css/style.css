@@ -165,7 +165,7 @@ body {
 
 
 .head-img{
-    background: linear-gradient( rgba(45, 43, 43, 0.5), rgba(51, 49, 49, 0.5)), url("/media/lets\ bg\ img.jpg");
+    background: linear-gradient( rgba(2, 2, 2, 0.5), rgba(12, 9, 9, 0.5)), url("/media/lets\ bg\ img.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -631,12 +631,9 @@ a {
 /* .easy-way-table{
     margin: 20px;
 } */
-
-
-
+ 
 
 /* easy- way  */
-
 
 
 .circle-odd,

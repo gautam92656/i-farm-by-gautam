@@ -220,6 +220,11 @@ a {
         font-size: 20px;
     }
 }
+@media only screen and (max-width: 671px) {
+    .head {
+        font-size: 15px;
+    }
+}
 
 /* farming technology */
 
