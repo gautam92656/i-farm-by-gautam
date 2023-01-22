@@ -513,6 +513,12 @@ a{
     }
 
 }
+@media only screen and (max-width: 354px) {
+    .name {
+        padding: 11px 50px;
+        margin: 7px;
+    }
+}
 
 
 
