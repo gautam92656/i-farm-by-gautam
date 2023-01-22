@@ -40,11 +40,11 @@ a {
 .menu-items::after {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 94%;
     background-color: rgb(16, 149, 16);
-    height: 3px;
-    left: 20px;
-    bottom: -15px;
+    height: 1px;
+    left: 23px;
+    bottom: -11px;
     transform: scale(0, 0);
     /* border-radius: 10px; */
     transition: transform 0.3s;
