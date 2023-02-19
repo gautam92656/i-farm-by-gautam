@@ -468,14 +468,6 @@ a {
     margin-bottom: 50px;
 }
 
-.name {
-    padding: 20px 200px;
-    margin: 10px;
-    border: 1px solid rgb(16, 149, 16);
-    border-radius: 30px;
-
-}
-
 .input-name {
     text-align: center;
 }
@@ -494,40 +486,57 @@ a {
     background-color: rgb(16, 149, 16);
 }
 
-@media only screen and (max-width: 634px) {
-    
+.name {
+    padding: 15px 48px;
+    margin: 10px;
+    border: 1px solid rgb(16, 149, 16);
+    border-radius: 30px;
+    width: 513px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 354px) {
     .name {
-        padding: 17px 101px;
+        padding: 11px 50px;
         margin: 7px;
     }
 }
+
 @media only screen and (max-width: 414px) {
-    
+
     .name {
         padding: 13px 77px;
     }
+
     .input-btn {
         padding: 10px 30px;
         font-size: 18px;
     }
 }
+
 @media only screen and (max-width: 1098px) {
-    
+
     .sub-form-head {
         padding: 25px 0px;
     }
 }
+
 @media only screen and (max-width: 634px) {
-    
+
+    .name {
+        width: 42vw;
+        font-size: 14px;
+    }
+
     .sub-form-head {
         font-size: 11px;
     }
-
 }
-@media only screen and (max-width: 354px) {
+
+@media only screen and (min-width: 634px) and (max-width: 717px) {
     .name {
-        padding: 11px 50px;
-        margin: 7px;
+        width: 334px;
+        font-size: 16px;
     }
 }
 

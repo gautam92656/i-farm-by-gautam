@@ -454,13 +454,6 @@ a {
     margin: 40px 0px;
 }
 
-.name {
-    padding: 20px 200px;
-    margin: 10px;
-    border: 1px solid rgb(16, 149, 16);
-    border-radius: 30px;
-}
-
 .input-name {
     text-align: center;
 }
@@ -484,10 +477,18 @@ a {
     margin-bottom: 42px;
 }
 
-@media only screen and (max-width: 634px) {
+.name {
+    padding: 15px 48px;
+    margin: 10px;
+    border: 1px solid rgb(16, 149, 16);
+    border-radius: 30px;
+    width: 513px;
+    font-size: 16px;
+}
 
+@media only screen and (max-width: 354px) {
     .name {
-        padding: 17px 101px;
+        padding: 11px 50px;
         margin: 7px;
     }
 }
@@ -513,15 +514,20 @@ a {
 
 @media only screen and (max-width: 634px) {
 
+    .name {
+        width: 42vw;
+        font-size: 14px;
+    }
+
     .sub-form-head {
         font-size: 11px;
     }
-
 }
-@media only screen and (max-width: 354px) {
+
+@media only screen and (min-width: 634px) and (max-width: 717px) {
     .name {
-        padding: 11px 50px;
-        margin: 7px;
+        width: 334px;
+        font-size: 16px;
     }
 }
 
